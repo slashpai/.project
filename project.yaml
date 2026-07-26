@@ -1,0 +1,72 @@
+# .project metadata for Perses
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "perses"
+name: "Perses"
+description: "Perses is a dashboard tool to visualize observability data from Prometheus/Thanos/Jaeger."
+type: "project"
+project_lead: "ibakshay" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#perses-dev"
+    link: "https://cloud-native.slack.com/messages/C07KQR95WBE"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2024-08-29T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/134" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/perses/perses"
+
+website: "https://perses.dev"
+
+artwork: "https://landscape.cncf.io/logos/perses.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/perses/perses/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "perses/perses"
+
+social:
+  twitter: "https://x.com/PersesDev"
+
+security:
+  policy:
+    path: "https://github.com/perses/perses/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/perses/perses/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/perses/perses/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/perses/perses/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/perses/perses/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/perses/perses/blob/main/README.md"
+
+landscape:
+  category: "Observability and Analysis"
+  subcategory: "Observability"
+
+# CLOMonitor Score: 87/100
+# Documentation: 97 | License: 86 | Best Practices: 79 | Security: 73
